@@ -29,7 +29,7 @@ This is the final assignment for Software Lab III, showcasing a multi-container 
 git clone https://github.com/Chaitali326/final-assignment.git
 cd final-assignment
 
-2. Build and Run with Docker Compose
+### 2. Build and Run with Docker Compose
 ```bash
 docker-compose up --build
 This builds and runs both the Django and Flask containers.
@@ -89,13 +89,3 @@ Add GitHub credentials and allow pipeline execution from your Jenkins dashboard.
 👩‍💻 Author
 Chaitali326
 This project was developed as part of the Software Lab III final assignment.
-
-✅ Save & Push to GitHub
-In the terminal:
-
-bash
-Copy
-Edit
-git add README.md
-git commit -m "Add final README with project details and run instructions"
-git push origin main
