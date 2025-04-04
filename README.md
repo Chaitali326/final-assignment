@@ -29,7 +29,7 @@ This is the final assignment for Software Lab III, showcasing a multi-container 
 git clone https://github.com/Chaitali326/final-assignment.git
 cd final-assignment
 
-### 2. Build and Run with Docker Compose
+2. Build and Run with Docker Compose
 ```bash
 docker-compose up --build
 This builds and runs both the Django and Flask containers.
