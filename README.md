@@ -23,14 +23,15 @@ This is the final assignment for Software Lab III, showcasing a multi-container 
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository 
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Chaitali326/final-assignment.git
 cd final-assignment
-
 2. Build and Run with Docker Compose
-```bash
+bash
+Copy
+Edit
 docker-compose up --build
 This builds and runs both the Django and Flask containers.
 
@@ -57,7 +58,6 @@ final-assignment/
 ├── docker-compose.yml      # Docker Compose file
 ├── Jenkinsfile             # CI/CD Jenkins pipeline
 └── README.md               # This file
-
 🧩 Django Migrations
 Before running the server, make sure to apply migrations:
 
@@ -66,25 +66,24 @@ Copy
 Edit
 docker exec -it final-assignment-django-1 python manage.py makemigrations
 docker exec -it final-assignment-django-1 python manage.py migrate
-
 ⚙️ Jenkins Integration
 This project includes a Jenkinsfile which automates the build and deployment pipeline.
 
-Jenkins Pipeline Overview:
+Jenkins Pipeline Overview
 Pulls the latest code from GitHub
 
 Builds Docker images for Django and Flask
 
-Runs both containers using docker-compose
+Runs both containers using Docker Compose
 
 Can be extended to run unit tests and perform health checks
 
 To use it:
-Set up a Jenkins job with GitHub integration.
+Set up a Jenkins job with GitHub integration
 
-Use a Docker-enabled Jenkins agent.
+Use a Docker-enabled Jenkins agent
 
-Add GitHub credentials and allow pipeline execution from your Jenkins dashboard.
+Add GitHub credentials and allow pipeline execution from your Jenkins dashboard
 
 👩‍💻 Author
 Chaitali326
