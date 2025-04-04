@@ -28,6 +28,7 @@ This is the final assignment for Software Lab III, showcasing a multi-container 
 ```bash
 git clone https://github.com/Chaitali326/final-assignment.git
 cd final-assignment
+
 2. Build and Run with Docker Compose
 bash
 Copy
@@ -58,6 +59,7 @@ final-assignment/
 ├── docker-compose.yml      # Docker Compose file
 ├── Jenkinsfile             # CI/CD Jenkins pipeline
 └── README.md               # This file
+
 🧩 Django Migrations
 Before running the server, make sure to apply migrations:
 
@@ -66,6 +68,7 @@ Copy
 Edit
 docker exec -it final-assignment-django-1 python manage.py makemigrations
 docker exec -it final-assignment-django-1 python manage.py migrate
+
 ⚙️ Jenkins Integration
 This project includes a Jenkinsfile which automates the build and deployment pipeline.
 
